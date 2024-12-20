@@ -1,0 +1,5 @@
+/Users/artembelcikova/Documents/453501/ОАиП/LR_8/Task_1/out/build/task_1/CMakeFiles/Task_1.dir
+/Users/artembelcikova/Documents/453501/ОАиП/LR_8/Task_1/out/build/task_1/CMakeFiles/package.dir
+/Users/artembelcikova/Documents/453501/ОАиП/LR_8/Task_1/out/build/task_1/CMakeFiles/package_source.dir
+/Users/artembelcikova/Documents/453501/ОАиП/LR_8/Task_1/out/build/task_1/CMakeFiles/edit_cache.dir
+/Users/artembelcikova/Documents/453501/ОАиП/LR_8/Task_1/out/build/task_1/CMakeFiles/rebuild_cache.dir
