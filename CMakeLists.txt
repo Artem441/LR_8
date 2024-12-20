@@ -7,6 +7,16 @@ project(Task_1)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
+set(SOURCES
+  AddStructures.cpp
+  ChangeStructure.cpp
+  DeleteStructure.cpp
+  FindStructure.cpp
+  InicialisationArrOfStructures.cpp
+  OutArrOfStructures.cpp
+  SortingAndOut.cpp
+)
+
 # Опция для включения санитайзеров
 option(ENABLE_SANITIZERS "Enable Address and Thread Sanitizers" ON)
 

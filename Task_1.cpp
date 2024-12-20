@@ -4,18 +4,9 @@
 #include <stdlib.h>
 #include <string.h>
 #include <string>
+#include "func.h"
 
-typedef struct Student { // иницаилизация структуры
-  union{
-    double GPA;
-  }gpa;
-  double FamilyIncome;
-  char FirstName[128];
-  char SecondName[128];
-  char Patronymic[128];
-  char GroupNumber[128];
-} Student;
-
+/*
 int InicialisationArrOfStructures (Student *&student, int size);
 void OutArrOfStructures (Student *student, int size);
 int AddStructures (Student *&student, int size);
@@ -23,6 +14,7 @@ void FindStructure (Student *student, int size);
 void SortingAndOut (Student *student, int size);
 int DeleteStructure (Student *&student, int size);
 void ChangeStructure (Student *&student, int size);
+*/
 
 int main () {
   int size = 0, counter = 0, func = 0;
@@ -74,6 +66,7 @@ int main () {
   free(student);
   return 0;
 }
+/*
 int InicialisationArrOfStructures (Student *&student, int size) {
   typedef struct Temporary { // иницаилизация структуры
     union{
@@ -482,7 +475,6 @@ int InicialisationArrOfStructures (Student *&student, int size) {
           std::cout << "неправильный ввод:  " << std::endl;
         }
         if (stop_or_not != 1) {
-          std::cout << student << '\n';
           student = (Student*)realloc(student, (i + 1) * sizeof(Student));
           size = i + 1;
           break;
@@ -881,7 +873,6 @@ void FindStructure (Student *student, int size) {
     }
   }
 }
-
 void SortingAndOut (Student *student, int size) {
   char buffer[128];
   double time;
@@ -1579,3 +1570,4 @@ void ChangeStructure (Student *&student, int size) {
     }
   }
 }
+*/
